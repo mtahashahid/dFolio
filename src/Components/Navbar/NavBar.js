@@ -1,13 +1,15 @@
 import React, { Component } from "react";
-import { Container,Navbar } from 'react-bootstrap';
-import codeIcon from '../../Assets/code.png'
+import { Navbar } from "react-bootstrap";
+import Nav from 'react-bootstrap/Nav'
+import codeIcon from "../../Assets/code.png";
+import "./Navbar.css";
 class NavBar extends Component {
   render() {
     return (
       <div>
         <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home">
+            <div className="row alignment">
               <img
                 alt="codeIcon"
                 src={codeIcon}
@@ -15,9 +17,11 @@ class NavBar extends Component {
                 height="35"
                 className="d-inline-block align-top"
               />{" "}
-              Muhammad Taha
-            </Navbar.Brand>
-          </Container>
+              <p className="name">
+                Muhammad Taha
+              </p>
+            </div>
+          </Navbar.Brand>
         </Navbar>
       </div>
     );
