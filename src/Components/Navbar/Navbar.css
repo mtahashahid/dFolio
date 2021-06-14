@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .name{
     font-family: 'Pacifico', cursive;
-    font-size: 1.6rem;
-    padding-left: 1rem;
+    font-size: 1.6em;
+    padding-left: 1em;
+    color: #551A8B !important;
 }
-.alignment{
-    padding-left: 5rem;
-    padding-top: 1rem;
+.nav-bg{
+    background-color: #fff;
 }
+.navbar-toggler {
+    background-color: #551A8B;
+    color: black !important;    
+  }
+  .navbar-toggler .icon{
+      background-color: black !important;
+  }
