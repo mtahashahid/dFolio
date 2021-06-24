@@ -50,7 +50,7 @@ nav .icon {
   float: right;
   margin-right: 2.5rem;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 @media (max-width: 1048px) {
   label.name {
@@ -65,8 +65,8 @@ nav .icon {
   }
 }
 @media (max-width: 909px) {
-  label .icon {
-    display: block;
+  nav .icon {
+    display: block !important;
   }
   nav ul {
     position: fixed;

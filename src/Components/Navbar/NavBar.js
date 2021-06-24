@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 const NavBar = () => {
-  const [navbarOpen,setNavbarOpen] = useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
   const handleToggle = () => {
-    setNavbarOpen(prev => !prev)
+    setNavbarOpen(!navbarOpen);
   };
   return (
     <nav>
@@ -26,7 +26,11 @@ const NavBar = () => {
         </li>
       </ul>
       <label className="icon">
-        <i className="fa fa-bars" aria-hidden="true" onClick={handleToggle}>{`${navbarOpen ? "show" : ""}`}</i>
+        <i
+          className={navbarOpen ? "fa fa-times" : "fa fa-bars"}
+          aria-hidden="true"
+          onClick={handleToggle}
+        ></i>
       </label>
     </nav>
   );
