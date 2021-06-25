@@ -9,19 +9,17 @@ const NavBar = () => {
   return (
     <nav>
       <label className="name">Muhammad Taha</label>
-      <ul>
-        <li>
-          <a className="active" href="!#">
-            Home
-          </a>
+      <ul className={navbarOpen ? "nav-links active" : "nav-links"}>
+        <li className="nav-li">
+          <a href="!#">Home</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="!#">Skills</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="!#">Projects</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="!#">Contact</a>
         </li>
       </ul>
