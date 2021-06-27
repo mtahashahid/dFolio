@@ -6,14 +6,11 @@ class Home extends Component {
     return (
       <div className="home-wrapper">
        <div className="home-right">
-         <h2>Hi there,I'm</h2>
-         <h1>Muhammad Taha</h1>
-         <h3>Freelancer</h3>
+         <h1>Hi there,I'm Muhammad Taha</h1>
+             
        </div>
-       <div className="home-left">
-         <div>
+       <div className="home-left">   
            <img src={HomeImg} alt="home"></img>
-         </div>
        </div>
       </div>
     );
