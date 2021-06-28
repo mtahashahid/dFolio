@@ -7,7 +7,50 @@
   font-family: "Montserrat", sans-serif;
 } */
 
-.home-wrapper{
+.home-main {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 4rem;
+}
+
+.home-img {
+  width: 700px;
+  height: auto;
+}
+.content-right {
+  width: 15%;
+}
+/* .content-left{
+  width: 70%;
+} */
+.home-main h1 {
+  font-size: 3rem;
+  color: #551a8b;
+}
+.home-main p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin: 1.5rem 0;
+}
+.btn{
+  background: #551a8b;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+}
+.btn-2{
+  margin-left: 2rem;
+}
+@media (max-width: 1048px) {
+  .home-main{
+    flex-direction: column;
+  }
 }
