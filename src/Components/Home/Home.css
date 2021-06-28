@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 /* .btn-primary {
   background-color: #551a8b;
   border-color: #551a8b;
@@ -7,49 +7,64 @@
   font-family: "Montserrat", sans-serif;
 } */
 
+
 .home-main {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 4rem 4rem;
+  height: 100%;
+  padding: 1rem;
+  width: 100%;
+  min-height: 50vh;
+  
+  font-family: 'Varela Round', sans-serif;
 }
-
-.home-img {
-  width: 700px;
-  height: auto;
+.content-left{
+ line-height: 2.5rem;
 }
-.content-right {
-  width: 15%;
-}
-/* .content-left{
-  width: 70%;
-} */
-.home-main h1 {
-  font-size: 3rem;
+.content-left h1{
   color: #551a8b;
-}
-.home-main p{
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: #000000;
-  line-height: 2.5rem;
   letter-spacing: 0.1rem;
-  margin: 1.5rem 0;
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+.content-left p{
+}
+.content-right{
+  height: 25rem;
+}
+.home-img{
+  height: 75%;
+}
+.home-btns{
+  display: flex;
+  margin-top: 2rem;
 }
 .btn{
-  background: #551a8b;
+  background-color: #55198b;
+  border: 2px solid #55198b;
   color: #fff;
-  padding: 1rem 1.5rem;
-  outline: none;
-  border: none;
   font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.4rem 1.6rem;
+  margin-right: 50px;
   text-transform: uppercase;
-  border-radius: 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
 }
-.btn-2{
-  margin-left: 2rem;
+.btn:hover{
+  background-color: #fff;
 }
-@media (max-width: 1048px) {
+@media (max-width:1150px){
   .home-main{
     flex-direction: column;
   }

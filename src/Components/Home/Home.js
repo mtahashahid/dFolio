@@ -12,8 +12,12 @@ class Home extends Component {
             quas eum, velit enim officia quae, saepe possimus hic perspiciatis
           </p>
           <div className="home-btns">
-          <button className="btn">Contact Me</button>
-          <button className="btn btn-2">Contact Me</button>
+            <div>
+              <a href="!#" className="btn">Contact Me</a>
+            </div>
+            <div>
+            <a href="!#" className="btn">See My Resume</a>
+            </div>
           </div>
         </div>
         <div className="content-right">
