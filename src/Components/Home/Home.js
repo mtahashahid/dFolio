@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div className="home-main">
         <div className="content-left">
-          <h1>Hi there,I'm Muhammad Taha</h1>
+          <h1>Hi,I'm Taha</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
             quas eum, velit enim officia quae, saepe possimus hic perspiciatis
@@ -16,7 +16,7 @@ class Home extends Component {
               <a href="!#" className="btn">Contact Me</a>
             </div>
             <div>
-            <a href="!#" className="btn">See My Resume</a>
+            <a href="!#" className="btn">My Resume</a>
             </div>
           </div>
         </div>

@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 /* .btn-primary {
   background-color: #551a8b;
   border-color: #551a8b;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
 } */
-
 
 .home-main {
   display: flex;
@@ -16,31 +15,32 @@
   padding: 1rem;
   width: 100%;
   min-height: 50vh;
-  
-  font-family: 'Varela Round', sans-serif;
+
+  font-family: "Varela Round", sans-serif;
 }
-.content-left{
- line-height: 2.5rem;
+.content-left {
+  line-height: 2.5rem;
 }
-.content-left h1{
+.content-left h1 {
   color: #551a8b;
   letter-spacing: 0.1rem;
   font-size: 3.5rem;
   line-height: 5rem;
 }
-.content-left p{
+.content-left p {
 }
-.content-right{
+.content-right {
   height: 25rem;
 }
-.home-img{
-  height: 75%;
+.home-img {
+  height: 85%;
+  /* margin-top: 0.2rem; */
 }
-.home-btns{
+.home-btns {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
-.btn{
+.btn {
   background-color: #55198b;
   border: 2px solid #55198b;
   color: #fff;
@@ -58,14 +58,54 @@
   margin-top: 0.8rem;
   font-size: 1rem;
   cursor: pointer;
-  -webkit-transition: all .3s ease-in-out 0s;
-  transition: all .3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
-.btn:hover{
+.btn:hover {
   background-color: #fff;
 }
-@media (max-width:1150px){
-  .home-main{
+@media (max-width: 1080px) {
+  .home-main {
     flex-direction: column;
+    padding-top: 1rem;
+  }
+  .home-img {
+    max-width: 85vw;
+    height: initial;
+    margin-top: 3rem;
+  }
+  .content-left {
+    text-align: center;
+  }
+    .content-left p {
+    padding: 2vw 5vw;
+    line-height: normal;
+  }
+  .home-btns {
+    justify-content: space-evenly;
+  }
+  .btn{
+    margin: 0;
+  }
+}
+@media (max-width: 530px) {
+  .content-left h1 {
+    font-size: 2rem;
+  }
+  .content-left h1 {
+    line-height: normal;
+  }
+  .content-left p {
+    line-height: normal;
+    padding: 2vw 6vw;
+  }
+  .btn{
+    margin-right: -0.5rem;
+    padding: 0.4rem 0.9rem;
+  }
+  .home-img {
+    max-width: 75vw;
+    height: initial;
+    margin-top: 3rem;
   }
 }
