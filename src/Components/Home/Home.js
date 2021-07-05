@@ -8,8 +8,7 @@ class Home extends Component {
         <div className="content-left">
           <h1>Hi,I'm Taha</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            quas eum, velit enim officia quae, saepe possimus hic perspiciatis
+            I am a self taught web developer and a Computer Science student from Pakistan.
           </p>
           <div className="home-btns">
             <div>

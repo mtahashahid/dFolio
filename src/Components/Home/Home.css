@@ -15,7 +15,6 @@
   padding: 1rem;
   width: 100%;
   min-height: 50vh;
-
   font-family: "Varela Round", sans-serif;
 }
 .content-left {
@@ -28,6 +27,8 @@
   line-height: 5rem;
 }
 .content-left p {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .content-right {
   height: 25rem;
@@ -77,14 +78,14 @@
   .content-left {
     text-align: center;
   }
-    .content-left p {
+  .content-left p {
     padding: 2vw 5vw;
     line-height: normal;
   }
   .home-btns {
     justify-content: space-evenly;
   }
-  .btn{
+  .btn {
     margin: 0;
   }
 }
@@ -98,8 +99,10 @@
   .content-left p {
     line-height: normal;
     padding: 2vw 6vw;
+    font-size: 0.9rem;
+    font-weight: 600;
   }
-  .btn{
+  .btn {
     margin-right: -0.5rem;
     padding: 0.4rem 0.9rem;
   }
